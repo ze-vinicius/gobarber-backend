@@ -25,6 +25,7 @@ describe('CreateUser', () => {
   it('should not be able to create two users with same email from another user', async () => {
     const fakeUsersRepository = new FakeUsersRepository();
     const fakeHashProvider = new FakeHashProvider();
+
     const createUser = new CreateUserService(
       fakeUsersRepository,
       fakeHashProvider,
