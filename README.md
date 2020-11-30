@@ -2,6 +2,10 @@
 
 backend da aplicação "GoBarber" desenvolvida durante o bootcamp da Rocketseat
 
+## Próximas Features
+
+Aqui estão definidas as próximas features da aplicação GoBarber a serem desenvolvidas durante o bootcamp Gostack.
+
 ## Recuperação de senha
 
 ### RF
