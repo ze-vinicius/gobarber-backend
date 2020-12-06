@@ -6,25 +6,6 @@ backend da aplicação "GoBarber" desenvolvida durante o bootcamp da Rocketseat
 
 Aqui estão definidas as próximas features da aplicação GoBarber a serem desenvolvidas durante o bootcamp Gostack.
 
-## Recuperação de senha
-
-### RF
-
-- O usuário deve poder recuperar sua senha informando o seu e-mail;
-- O usuário deve receber um e-mail com instruções de recuperação de senha;
-- O usuário deve poder resetar sua senha;
-
-### RNF
-
-- Utilizar Mailtrap para testar os envios em ambiente de desenvolvimento;
-- Utilizar o Amazon SES para envios de e-mail em ambiente produção;
-- O Envio de e-mails deve acontecer em segundo plano (background job);
-
-### RN
-
-- O link enviado por e-mail para resetar senha deve expirar em 2 horas;
-- O usuário precisa confirmar a nova senha ao resetar a sua senha;
-
 ## Atualização do perfil
 
 ### RF
