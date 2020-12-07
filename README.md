@@ -6,18 +6,6 @@ backend da aplicação "GoBarber" desenvolvida durante o bootcamp da Rocketseat
 
 Aqui estão definidas as próximas features da aplicação GoBarber a serem desenvolvidas durante o bootcamp Gostack.
 
-## Atualização do perfil
-
-### RF
-
-- O usuário deve poder atualizar o seu nome, email e senha;
-
-### RN
-
-- O usuário não pode alterar seu e-mail para um e-mail já utilizado por outro usuário;
-- Para atualizar sua senha o usuário deve informar a senha antiga;
-- Para atualizar a sua senha, o usuário precisa confirmar a nova senha;
-
 ## Painel do prestador
 
 ### RF

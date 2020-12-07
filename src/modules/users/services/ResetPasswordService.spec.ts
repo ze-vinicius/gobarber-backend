@@ -57,6 +57,15 @@ describe('ResetPasswordService', () => {
     ).rejects.toBeInstanceOf(AppError);
   });
 
+  it('should not be able to reset the password whit non existing token', async () => {
+    await expect(
+      resetPassword.execute({
+        token: 'non-existing-token',
+        password: 'new_password',
+      }),
+    ).rejects.toBeInstanceOf(AppError);
+  });
+
   it('should not be able to reset password after 2 hours of token ben generated', async () => {
     const user = await fakeUsersRepository.create({
       name: 'John Doe',
