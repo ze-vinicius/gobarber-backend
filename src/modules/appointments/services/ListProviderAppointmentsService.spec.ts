@@ -2,11 +2,13 @@ import FakeAppointmentsRepository from '@modules/appointments/repositories/fakes
 import ListProviderAppointmentsService from './ListProviderAppointmentsService';
 
 let fakeAppointmentsRepository: FakeAppointmentsRepository;
+
 let listProviderAppointments: ListProviderAppointmentsService;
 
 describe('ListProviderAppointments', () => {
   beforeEach(() => {
     fakeAppointmentsRepository = new FakeAppointmentsRepository();
+
     listProviderAppointments = new ListProviderAppointmentsService(
       fakeAppointmentsRepository,
     );
